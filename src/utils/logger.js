@@ -2,11 +2,10 @@ const log4js = require('log4js');
 
 log4js.configure({
   appenders: {
-    file: { type: 'file', filename: './logs/automation.log' },
     console: { type: 'console' }
   },
   categories: {
-    default: { appenders: ['file', 'console'], level: 'debug' }
+    default: { appenders: ['console'], level: 'debug' }
   }
 });
 
