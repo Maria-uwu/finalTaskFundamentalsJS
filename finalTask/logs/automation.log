@@ -1926,3 +1926,99 @@
 [2025-06-12T15:58:29.432] [INFO] default - Verifying that the name of the page be: "Swag Labs"
 [2025-06-12T15:58:29.643] [DEBUG] default - Actual title: "Swag Labs"
 [2025-06-12T15:58:29.647] [INFO] default - Title matches expected.
+[2025-06-12T16:00:03.718] [INFO] default - Opening login page...
+[2025-06-12T16:00:04.681] [INFO] default - Opening login page...
+[2025-06-12T16:00:04.846] [INFO] default - Login page loaded.
+[2025-06-12T16:00:04.854] [INFO] default - Filling "username" with: "invalid_user"
+[2025-06-12T16:00:05.339] [INFO] default - "username" field filled.
+[2025-06-12T16:00:05.339] [INFO] default - Filling "password" with: "invalid_pass"
+[2025-06-12T16:00:05.468] [INFO] default - Login page loaded.
+[2025-06-12T16:00:05.476] [INFO] default - Filling "username" with: "invalid_user"
+[2025-06-12T16:00:05.599] [INFO] default - "password" field filled.
+[2025-06-12T16:00:05.600] [INFO] default - Clearing "username" field...
+[2025-06-12T16:00:05.634] [INFO] default - "username" field filled.
+[2025-06-12T16:00:05.636] [INFO] default - Filling "password" with: "invalid_pass"
+[2025-06-12T16:00:05.657] [INFO] default - "password" field filled.
+[2025-06-12T16:00:05.658] [INFO] default - Clearing "username" field...
+[2025-06-12T16:00:05.678] [INFO] default - "username" field cleared.
+[2025-06-12T16:00:05.679] [INFO] default - Clearing "password" field...
+[2025-06-12T16:00:05.887] [INFO] default - "password" field cleared.
+[2025-06-12T16:00:05.887] [INFO] default - Clicking login button...
+[2025-06-12T16:00:05.918] [INFO] default - "username" field cleared.
+[2025-06-12T16:00:05.918] [INFO] default - Clearing "password" field...
+[2025-06-12T16:00:06.013] [INFO] default - Login button clicked.
+[2025-06-12T16:00:06.152] [INFO] default - Verifying expected error message: "Epic sadface: Username is required"
+[2025-06-12T16:00:06.166] [INFO] default - "password" field cleared.
+[2025-06-12T16:00:06.166] [INFO] default - Clicking login button...
+[2025-06-12T16:00:06.226] [DEBUG] default - Actual error message: "Epic sadface: Username is required"
+[2025-06-12T16:00:06.232] [INFO] default - Error message matches expected.
+[2025-06-12T16:00:06.233] [INFO] default - Verifying that "username" field is empty...
+[2025-06-12T16:00:06.377] [DEBUG] default - Actual value of "username" field: ""
+[2025-06-12T16:00:06.379] [INFO] default - "username" field is empty as expected.
+[2025-06-12T16:00:06.380] [INFO] default - Verifying that "password" field is empty...
+[2025-06-12T16:00:06.385] [INFO] default - Login button clicked.
+[2025-06-12T16:00:06.398] [INFO] default - Verifying expected error message: "Epic sadface: Username is required"
+[2025-06-12T16:00:06.406] [DEBUG] default - Actual error message: "Epic sadface: Username is required"
+[2025-06-12T16:00:06.412] [INFO] default - Error message matches expected.
+[2025-06-12T16:00:06.413] [INFO] default - Verifying that "username" field is empty...
+[2025-06-12T16:00:06.418] [DEBUG] default - Actual value of "username" field: ""
+[2025-06-12T16:00:06.420] [INFO] default - "username" field is empty as expected.
+[2025-06-12T16:00:06.420] [INFO] default - Verifying that "password" field is empty...
+[2025-06-12T16:00:06.426] [DEBUG] default - Actual value of "password" field: ""
+[2025-06-12T16:00:06.428] [INFO] default - "password" field is empty as expected.
+[2025-06-12T16:00:06.429] [INFO] default - Opening login page...
+[2025-06-12T16:00:06.510] [INFO] default - Login page loaded.
+[2025-06-12T16:00:06.510] [INFO] default - Filling "username" with: "standard_user"
+[2025-06-12T16:00:06.526] [INFO] default - "username" field filled.
+[2025-06-12T16:00:06.527] [INFO] default - Filling "password" with: "secret_sauce"
+[2025-06-12T16:00:06.531] [DEBUG] default - Actual value of "password" field: ""
+[2025-06-12T16:00:06.535] [INFO] default - "password" field is empty as expected.
+[2025-06-12T16:00:06.536] [INFO] default - Opening login page...
+[2025-06-12T16:00:06.544] [INFO] default - "password" field filled.
+[2025-06-12T16:00:06.544] [INFO] default - Clearing "password" field...
+[2025-06-12T16:00:06.726] [INFO] default - Login page loaded.
+[2025-06-12T16:00:06.726] [INFO] default - Filling "username" with: "standard_user"
+[2025-06-12T16:00:06.771] [INFO] default - "username" field filled.
+[2025-06-12T16:00:06.772] [INFO] default - Filling "password" with: "secret_sauce"
+[2025-06-12T16:00:06.790] [INFO] default - "password" field cleared.
+[2025-06-12T16:00:06.791] [INFO] default - Clicking login button...
+[2025-06-12T16:00:06.836] [INFO] default - "password" field filled.
+[2025-06-12T16:00:06.836] [INFO] default - Clearing "password" field...
+[2025-06-12T16:00:06.907] [INFO] default - "password" field cleared.
+[2025-06-12T16:00:06.907] [INFO] default - Clicking login button...
+[2025-06-12T16:00:06.944] [INFO] default - Login button clicked.
+[2025-06-12T16:00:06.956] [INFO] default - Verifying expected error message: "Epic sadface: Password is required"
+[2025-06-12T16:00:06.988] [DEBUG] default - Actual error message: "Epic sadface: Password is required"
+[2025-06-12T16:00:06.992] [INFO] default - Error message matches expected.
+[2025-06-12T16:00:06.992] [INFO] default - Verifying that "password" field is empty...
+[2025-06-12T16:00:07.005] [DEBUG] default - Actual value of "password" field: ""
+[2025-06-12T16:00:07.007] [INFO] default - "password" field is empty as expected.
+[2025-06-12T16:00:07.007] [INFO] default - Opening login page...
+[2025-06-12T16:00:07.027] [INFO] default - Login button clicked.
+[2025-06-12T16:00:07.031] [INFO] default - Verifying expected error message: "Epic sadface: Password is required"
+[2025-06-12T16:00:07.036] [DEBUG] default - Actual error message: "Epic sadface: Password is required"
+[2025-06-12T16:00:07.040] [INFO] default - Error message matches expected.
+[2025-06-12T16:00:07.041] [INFO] default - Verifying that "password" field is empty...
+[2025-06-12T16:00:07.045] [DEBUG] default - Actual value of "password" field: ""
+[2025-06-12T16:00:07.046] [INFO] default - "password" field is empty as expected.
+[2025-06-12T16:00:07.047] [INFO] default - Opening login page...
+[2025-06-12T16:00:07.110] [INFO] default - Login page loaded.
+[2025-06-12T16:00:07.111] [INFO] default - Filling "username" with: "standard_user"
+[2025-06-12T16:00:07.127] [INFO] default - "username" field filled.
+[2025-06-12T16:00:07.128] [INFO] default - Filling "password" with: "secret_sauce"
+[2025-06-12T16:00:07.139] [INFO] default - "password" field filled.
+[2025-06-12T16:00:07.139] [INFO] default - Clicking login button...
+[2025-06-12T16:00:07.141] [INFO] default - Login page loaded.
+[2025-06-12T16:00:07.142] [INFO] default - Filling "username" with: "standard_user"
+[2025-06-12T16:00:07.196] [INFO] default - "username" field filled.
+[2025-06-12T16:00:07.196] [INFO] default - Filling "password" with: "secret_sauce"
+[2025-06-12T16:00:07.233] [INFO] default - "password" field filled.
+[2025-06-12T16:00:07.234] [INFO] default - Clicking login button...
+[2025-06-12T16:00:07.305] [INFO] default - Login button clicked.
+[2025-06-12T16:00:07.305] [INFO] default - Verifying that the name of the page be: "Swag Labs"
+[2025-06-12T16:00:07.381] [INFO] default - Login button clicked.
+[2025-06-12T16:00:07.381] [INFO] default - Verifying that the name of the page be: "Swag Labs"
+[2025-06-12T16:00:07.388] [DEBUG] default - Actual title: "Swag Labs"
+[2025-06-12T16:00:07.392] [INFO] default - Title matches expected.
+[2025-06-12T16:00:07.552] [DEBUG] default - Actual title: "Swag Labs"
+[2025-06-12T16:00:07.557] [INFO] default - Title matches expected.
