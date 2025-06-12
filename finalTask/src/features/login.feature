@@ -10,6 +10,8 @@ Scenario: Test login form with empty credentials
     And I clear the password field
     When I click the login button
     Then I should see the error message "<expectedError>"
+    Then the username field should be empty
+    Then the password field should be empty
 
 Examples:
   | username      | password      | expectedError         |
@@ -22,6 +24,7 @@ Scenario: Test Login form with credentials by passing Username
     And I clear the password field
     When I click the login button
     Then I should see the error message "<expectedError>"
+    Then the password field should be empty
 
 Examples:
   | username       | password       | expectedError          |
